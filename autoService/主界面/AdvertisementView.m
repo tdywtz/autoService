@@ -149,7 +149,7 @@
 }
 
 -(void)loadGifImage{
-
+  
     [CZWAFHttpRequest GET:auto_DTopAdv success:^(id responseObject) {
         _dictionary = responseObject;
 

@@ -33,13 +33,9 @@
     prompt.appId = @"1127223130";
     [prompt shouAlert:AppPromptStyleScore];
     [prompt shouAlert:AppPromptStyleUpdate];
-//
-    /**
-     *  友盟
-     */
-    [MobClick startWithAppkey:@"56fb361667e58ecfaf001b30" reportPolicy:BATCH   channelId:nil];
-    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-    [MobClick setAppVersion:version];
+
+    /**友盟*/
+    [self um_analyics];
 
     //融云即时通讯
     //通知数据
@@ -370,6 +366,15 @@ handleWatchKitExtensionRequest:(NSDictionary *)userInfo
     }
 }
 
+
+/**友盟统计*/
+- (void)um_analyics{
+    UMConfigInstance.appKey = @"55f8e766e0f55a5cb5001444";
+    UMConfigInstance.channelId = @"";
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    [MobClick setAppVersion:version];
+    [MobClick startWithConfigure:UMConfigInstance];
+}
 
 #pragma mark - RCIMConnectionStatusDelegate
 

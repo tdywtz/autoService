@@ -16,14 +16,14 @@
 #else
 
 #define prefix_url(string) [NSString stringWithFormat:@"http://sbss.12365auto.com%@",string]
-#define prefix_m_url(string) [NSString stringWithFormat:@"http://sbss.12365auto.com%@",string]
+#define prefix_m_url(string) [NSString stringWithFormat:@"http://m.12365auto.com%@",string]
 
 #endif
 
 
 
 #define AUTO_URLSTRING(string) [NSString stringWithFormat:@"%@%@",prefix_url(@"/server/forThreeAppService.ashx?"),string]
-#define AUTO_M_URLSTRING(string) [NSString stringWithFormat:@"%@%@",prefix_url(@"/server/forCommonService.ashx?"),string]
+#define AUTO_M_URLSTRING(string) [NSString stringWithFormat:@"%@%@",prefix_m_url(@"/server/forCommonService.ashx?"),string]
 
 
 /*

@@ -24,6 +24,7 @@
 		15E294A01C0A08C000EF16E3 /* expert_Assist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E2949F1C0A08C000EF16E3 /* expert_Assist@2x.png */; };
 		15E294A31C0A11BD00EF16E3 /* CZWSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E294A21C0A11BD00EF16E3 /* CZWSettingViewController.m */; };
 		15FE6D3E1C08B57B007EAF9A /* CZWBasicPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FE6D3D1C08B57B007EAF9A /* CZWBasicPanNavigationController.m */; };
+		1CB0CC151BAE60B70D21EC51 /* libPods-autoService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F6EA8C46001C94BE2A2C6D /* libPods-autoService.a */; };
 		4D03F0841CE06EB200E86181 /* LHShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D03F0831CE06EB200E86181 /* LHShowViewController.m */; };
 		4D03F0871CE06EC100E86181 /* LHPageViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D03F0861CE06EC100E86181 /* LHPageViewcontroller.m */; };
 		4D04B7051D0145AC00D1DB97 /* AdvertisementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D04B7041D0145AC00D1DB97 /* AdvertisementView.m */; };
@@ -33,7 +34,6 @@
 		4D13A9251D348FD70069808A /* center_enterprise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D13A9241D348FD70069808A /* center_enterprise@2x.png */; };
 		4D13A9281D34AB850069808A /* CZWShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D13A9271D34AB850069808A /* CZWShowImageViewController.m */; };
 		4D13A92B1D34AB9A0069808A /* CZWShowImagePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D13A92A1D34AB9A0069808A /* CZWShowImagePageViewController.m */; };
-		4D15DC1D1CAB6EEF00486ABE /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D15DC1A1CAB6EEF00486ABE /* libMobClickLibrary.a */; };
 		4D1AEA1F1CCF0229000F7E99 /* 采纳图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1AEA1E1CCF0229000F7E99 /* 采纳图标@2x.png */; };
 		4D1F64E81D13DDC6005E566E /* CZWPromoteWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F64E71D13DDC6005E566E /* CZWPromoteWebViewController.m */; };
 		4D21BF321CC6009F00478F18 /* StarsBackgroundBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D21BF311CC6009F00478F18 /* StarsBackgroundBig@2x.png */; };
@@ -87,16 +87,6 @@
 		4D4C3F491C2A9EEA0050F3A2 /* CZWInformationFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C3F481C2A9EEA0050F3A2 /* CZWInformationFootView.m */; };
 		4D4C3F4B1C2AA1340050F3A2 /* auto_chatAddFriend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C3F4A1C2AA1340050F3A2 /* auto_chatAddFriend@2x.png */; };
 		4D4C3F4D1C2AA13B0050F3A2 /* auto_chatWillChat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C3F4C1C2AA13B0050F3A2 /* auto_chatWillChat@2x.png */; };
-		4D4F653C1C224C3000556A85 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F65251C224C3000556A85 /* JSONModel.m */; };
-		4D4F653D1C224C3000556A85 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F65271C224C3000556A85 /* JSONModelArray.m */; };
-		4D4F653E1C224C3000556A85 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F65291C224C3000556A85 /* JSONModelClassProperty.m */; };
-		4D4F653F1C224C3000556A85 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F652B1C224C3000556A85 /* JSONModelError.m */; };
-		4D4F65401C224C3000556A85 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F652E1C224C3000556A85 /* NSArray+JSONModel.m */; };
-		4D4F65411C224C3000556A85 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F65321C224C3000556A85 /* JSONAPI.m */; };
-		4D4F65421C224C3000556A85 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F65341C224C3000556A85 /* JSONHTTPClient.m */; };
-		4D4F65431C224C3000556A85 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F65361C224C3000556A85 /* JSONModel+networking.m */; };
-		4D4F65441C224C3000556A85 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F65391C224C3000556A85 /* JSONKeyMapper.m */; };
-		4D4F65451C224C3000556A85 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F653B1C224C3000556A85 /* JSONValueTransformer.m */; };
 		4D4F65701C2296DE00556A85 /* CZWChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F656F1C2296DD00556A85 /* CZWChatViewController.m */; };
 		4D4F65C41C22B6FA00556A85 /* CZWChatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F65C31C22B6FA00556A85 /* CZWChatListCell.m */; };
 		4D4F91611C715658001C9C42 /* CZWNewFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4F91601C715658001C9C42 /* CZWNewFriendsModel.m */; };
@@ -230,16 +220,8 @@
 		4DCE954B1D5D685300B5F61D /* CZWSearchEnterpriseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCE954A1D5D685300B5F61D /* CZWSearchEnterpriseCell.m */; };
 		4DD145441CE41FD300378B3E /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD145431CE41FD300378B3E /* TTTAttributedLabel.m */; };
 		4DD2182A1CB632F300D4E9BD /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD218291CB632F300D4E9BD /* Appirater.m */; };
-		4DD662801C21110000B0DC4E /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DD662771C21110000B0DC4E /* Emoji.plist */; };
-		4DD662811C21110000B0DC4E /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DD662781C21110000B0DC4E /* RongCloudKit.strings */; };
-		4DD662821C21110000B0DC4E /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD6627A1C21110000B0DC4E /* libopencore-amrnb.a */; };
-		4DD662831C21110000B0DC4E /* release_notes_ios.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4DD6627B1C21110000B0DC4E /* release_notes_ios.txt */; };
-		4DD662841C21110000B0DC4E /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DD6627C1C21110000B0DC4E /* RongCloud.bundle */; };
-		4DD662851C21110000B0DC4E /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD6627D1C21110000B0DC4E /* RongIMKit.framework */; };
-		4DD662861C21110000B0DC4E /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD6627E1C21110000B0DC4E /* RongIMLib.framework */; };
 		4DD6628A1C2135D900B0DC4E /* CZWAppealDetailsFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD662891C2135D900B0DC4E /* CZWAppealDetailsFootView.m */; };
 		4DD6628C1C214FDF00B0DC4E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD6628B1C214FDF00B0DC4E /* AssetsLibrary.framework */; };
-		4DD6628E1C214FEB00B0DC4E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD6628D1C214FEB00B0DC4E /* AudioToolbox.framework */; };
 		4DD662901C214FF400B0DC4E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD6628F1C214FF400B0DC4E /* AVFoundation.framework */; };
 		4DD662921C214FFE00B0DC4E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD662911C214FFE00B0DC4E /* CFNetwork.framework */; };
 		4DD662941C21502600B0DC4E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD662931C21502600B0DC4E /* CoreAudio.framework */; };
@@ -272,6 +254,14 @@
 		4DDE7AD81CC9BEE000D3F32B /* 三角@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDE7AD71CC9BEE000D3F32B /* 三角@2x.png */; };
 		4DDE7AE31CCA000C00D3F32B /* TestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE7AE21CCA000C00D3F32B /* TestLabel.m */; };
 		4DE1C9AC1CAA49C7008B0A8A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1C9AB1CAA49C7008B0A8A /* MBProgressHUD.m */; };
+		4DE4084E1DB0AF6E001882E8 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DE408441DB0AF6E001882E8 /* Emoji.plist */; };
+		4DE4084F1DB0AF6E001882E8 /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DE408451DB0AF6E001882E8 /* RongCloudKit.strings */; };
+		4DE408501DB0AF6E001882E8 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE408471DB0AF6E001882E8 /* libopencore-amrnb.a */; };
+		4DE408511DB0AF6E001882E8 /* RCConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DE408481DB0AF6E001882E8 /* RCConfig.plist */; };
+		4DE408521DB0AF6E001882E8 /* release_notes_ios.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4DE408491DB0AF6E001882E8 /* release_notes_ios.txt */; };
+		4DE408531DB0AF6E001882E8 /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DE4084A1DB0AF6E001882E8 /* RongCloud.bundle */; };
+		4DE408541DB0AF6E001882E8 /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4084B1DB0AF6E001882E8 /* RongIMKit.framework */; };
+		4DE408551DB0AF6E001882E8 /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4084C1DB0AF6E001882E8 /* RongIMLib.framework */; };
 		4DE825751D6D69F900823E10 /* CZWFlowChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE825741D6D69F900823E10 /* CZWFlowChartViewController.m */; };
 		4DE825801D6D9D5200823E10 /* center_flowChart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8257F1D6D9D5200823E10 /* center_flowChart@2x.png */; };
 		4DEA092E1CC07008004F6378 /* EditImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA092B1CC07008004F6378 /* EditImageCell.m */; };
@@ -296,7 +286,6 @@
 		4DF7DDF01D50641100B42BA2 /* CZWTechnologyGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7DDEF1D50641100B42BA2 /* CZWTechnologyGroupViewController.m */; };
 		4DFD280E1D4ED59900C789D5 /* LookPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD280D1D4ED59900C789D5 /* LookPasswordViewController.m */; };
 		4DFD28111D4ED98D00C789D5 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD28101D4ED98D00C789D5 /* EmailViewController.m */; };
-		837486716B95A81FC94876CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E59B4DEC22D3C0E1A22BC2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -317,6 +306,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078387357A6312BDC0AD6BA5 /* Pods-autoService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-autoService/Pods-autoService.debug.xcconfig"; sourceTree = "<group>"; };
 		1594E3E81C0A47EB0075CE35 /* CZWRootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWRootTableViewCell.h; sourceTree = "<group>"; };
 		1594E3E91C0A47EB0075CE35 /* CZWRootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWRootTableViewCell.m; sourceTree = "<group>"; };
 		1594E3EC1C0A4C6D0075CE35 /* CZWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWAboutViewController.h; sourceTree = "<group>"; };
@@ -340,7 +330,8 @@
 		15E294A21C0A11BD00EF16E3 /* CZWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CZWSettingViewController.m; path = ../CZWSettingViewController.m; sourceTree = "<group>"; };
 		15FE6D3C1C08B57B007EAF9A /* CZWBasicPanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWBasicPanNavigationController.h; sourceTree = "<group>"; };
 		15FE6D3D1C08B57B007EAF9A /* CZWBasicPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWBasicPanNavigationController.m; sourceTree = "<group>"; };
-		29E59B4DEC22D3C0E1A22BC2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		181A3429D1574CB4535967A5 /* Pods-autoService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-autoService.release.xcconfig"; path = "Pods/Target Support Files/Pods-autoService/Pods-autoService.release.xcconfig"; sourceTree = "<group>"; };
+		25F6EA8C46001C94BE2A2C6D /* libPods-autoService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-autoService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D03F0821CE06EB200E86181 /* LHShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHShowViewController.h; sourceTree = "<group>"; };
 		4D03F0831CE06EB200E86181 /* LHShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHShowViewController.m; sourceTree = "<group>"; };
 		4D03F0851CE06EC100E86181 /* LHPageViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPageViewcontroller.h; sourceTree = "<group>"; };
@@ -357,9 +348,6 @@
 		4D13A9271D34AB850069808A /* CZWShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWShowImageViewController.m; sourceTree = "<group>"; };
 		4D13A9291D34AB9A0069808A /* CZWShowImagePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWShowImagePageViewController.h; sourceTree = "<group>"; };
 		4D13A92A1D34AB9A0069808A /* CZWShowImagePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWShowImagePageViewController.m; sourceTree = "<group>"; };
-		4D15DC1A1CAB6EEF00486ABE /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
-		4D15DC1B1CAB6EEF00486ABE /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
-		4D15DC1C1CAB6EEF00486ABE /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
 		4D1AEA1E1CCF0229000F7E99 /* 采纳图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "采纳图标@2x.png"; sourceTree = "<group>"; };
 		4D1F64E61D13DDC6005E566E /* CZWPromoteWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWPromoteWebViewController.h; sourceTree = "<group>"; };
 		4D1F64E71D13DDC6005E566E /* CZWPromoteWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWPromoteWebViewController.m; sourceTree = "<group>"; };
@@ -446,27 +434,6 @@
 		4D4C3F481C2A9EEA0050F3A2 /* CZWInformationFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWInformationFootView.m; sourceTree = "<group>"; };
 		4D4C3F4A1C2AA1340050F3A2 /* auto_chatAddFriend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auto_chatAddFriend@2x.png"; sourceTree = "<group>"; };
 		4D4C3F4C1C2AA13B0050F3A2 /* auto_chatWillChat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auto_chatWillChat@2x.png"; sourceTree = "<group>"; };
-		4D4F65241C224C3000556A85 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
-		4D4F65251C224C3000556A85 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
-		4D4F65261C224C3000556A85 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
-		4D4F65271C224C3000556A85 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
-		4D4F65281C224C3000556A85 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
-		4D4F65291C224C3000556A85 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
-		4D4F652A1C224C3000556A85 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
-		4D4F652B1C224C3000556A85 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
-		4D4F652D1C224C3000556A85 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
-		4D4F652E1C224C3000556A85 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
-		4D4F652F1C224C3000556A85 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
-		4D4F65311C224C3000556A85 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
-		4D4F65321C224C3000556A85 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
-		4D4F65331C224C3000556A85 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
-		4D4F65341C224C3000556A85 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
-		4D4F65351C224C3000556A85 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
-		4D4F65361C224C3000556A85 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
-		4D4F65381C224C3000556A85 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
-		4D4F65391C224C3000556A85 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
-		4D4F653A1C224C3000556A85 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
-		4D4F653B1C224C3000556A85 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
 		4D4F656E1C2296DD00556A85 /* CZWChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWChatViewController.h; sourceTree = "<group>"; };
 		4D4F656F1C2296DD00556A85 /* CZWChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWChatViewController.m; sourceTree = "<group>"; };
 		4D4F65C21C22B6FA00556A85 /* CZWChatListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWChatListCell.h; sourceTree = "<group>"; };
@@ -690,18 +657,9 @@
 		4DD218281CB632F300D4E9BD /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
 		4DD218291CB632F300D4E9BD /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
 		4DD2182B1CB6332A00D4E9BD /* AppiraterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
-		4DD662771C21110000B0DC4E /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
-		4DD662791C21110000B0DC4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
-		4DD6627A1C21110000B0DC4E /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
-		4DD6627B1C21110000B0DC4E /* release_notes_ios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes_ios.txt; sourceTree = "<group>"; };
-		4DD6627C1C21110000B0DC4E /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongCloud.bundle; sourceTree = "<group>"; };
-		4DD6627D1C21110000B0DC4E /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMKit.framework; sourceTree = "<group>"; };
-		4DD6627E1C21110000B0DC4E /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMLib.framework; sourceTree = "<group>"; };
-		4DD6627F1C21110000B0DC4E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RongCloudKit.strings"; sourceTree = "<group>"; };
 		4DD662881C2135D900B0DC4E /* CZWAppealDetailsFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWAppealDetailsFootView.h; sourceTree = "<group>"; };
 		4DD662891C2135D900B0DC4E /* CZWAppealDetailsFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWAppealDetailsFootView.m; sourceTree = "<group>"; };
 		4DD6628B1C214FDF00B0DC4E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		4DD6628D1C214FEB00B0DC4E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4DD6628F1C214FF400B0DC4E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4DD662911C214FFE00B0DC4E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		4DD662931C21502600B0DC4E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -748,6 +706,15 @@
 		4DE1C9AB1CAA49C7008B0A8A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4DE3269E1D12742700A8956A /* CZWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZWColor.h; sourceTree = "<group>"; };
 		4DE3269F1D12743100A8956A /* CZWUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZWUrl.h; sourceTree = "<group>"; };
+		4DE408441DB0AF6E001882E8 /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		4DE408461DB0AF6E001882E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
+		4DE408471DB0AF6E001882E8 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		4DE408481DB0AF6E001882E8 /* RCConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RCConfig.plist; sourceTree = "<group>"; };
+		4DE408491DB0AF6E001882E8 /* release_notes_ios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes_ios.txt; sourceTree = "<group>"; };
+		4DE4084A1DB0AF6E001882E8 /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongCloud.bundle; sourceTree = "<group>"; };
+		4DE4084B1DB0AF6E001882E8 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMKit.framework; sourceTree = "<group>"; };
+		4DE4084C1DB0AF6E001882E8 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMLib.framework; sourceTree = "<group>"; };
+		4DE4084D1DB0AF6E001882E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RongCloudKit.strings"; sourceTree = "<group>"; };
 		4DE484791DAF2A4600A1233E /* threeService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = threeService.entitlements; sourceTree = "<group>"; };
 		4DE825731D6D69F900823E10 /* CZWFlowChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWFlowChartViewController.h; sourceTree = "<group>"; };
 		4DE825741D6D69F900823E10 /* CZWFlowChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWFlowChartViewController.m; sourceTree = "<group>"; };
@@ -786,8 +753,6 @@
 		4DFD280D1D4ED59900C789D5 /* LookPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookPasswordViewController.m; sourceTree = "<group>"; };
 		4DFD280F1D4ED98D00C789D5 /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
 		4DFD28101D4ED98D00C789D5 /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
-		55EFEBB78BFB66B272F2DC3F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		7AFB785BF3B619FF184FD245 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -804,9 +769,10 @@
 				4DD662A61C2150A000B0DC4E /* libstdc++.tbd in Frameworks */,
 				4DD662A41C21507F00B0DC4E /* libc++abi.tbd in Frameworks */,
 				4DD662A21C21507800B0DC4E /* libc++.tbd in Frameworks */,
-				4D15DC1D1CAB6EEF00486ABE /* libMobClickLibrary.a in Frameworks */,
 				4DD662A01C21505D00B0DC4E /* ImageIO.framework in Frameworks */,
+				4DE408541DB0AF6E001882E8 /* RongIMKit.framework in Frameworks */,
 				4DD6629E1C21505300B0DC4E /* CoreVideo.framework in Frameworks */,
+				4DE408501DB0AF6E001882E8 /* libopencore-amrnb.a in Frameworks */,
 				4DD6629C1C21504B00B0DC4E /* CoreTelephony.framework in Frameworks */,
 				4DD6629A1C21504000B0DC4E /* CoreMedia.framework in Frameworks */,
 				4DD662981C21503600B0DC4E /* CoreLocation.framework in Frameworks */,
@@ -814,13 +780,10 @@
 				4DD662941C21502600B0DC4E /* CoreAudio.framework in Frameworks */,
 				4DD662921C214FFE00B0DC4E /* CFNetwork.framework in Frameworks */,
 				4DD662901C214FF400B0DC4E /* AVFoundation.framework in Frameworks */,
-				4DD6628E1C214FEB00B0DC4E /* AudioToolbox.framework in Frameworks */,
+				4DE408551DB0AF6E001882E8 /* RongIMLib.framework in Frameworks */,
 				4DD6628C1C214FDF00B0DC4E /* AssetsLibrary.framework in Frameworks */,
 				4D3B9AA91C169FF00001204F /* libsqlite3.tbd in Frameworks */,
-				4DD662821C21110000B0DC4E /* libopencore-amrnb.a in Frameworks */,
-				4DD662861C21110000B0DC4E /* RongIMLib.framework in Frameworks */,
-				4DD662851C21110000B0DC4E /* RongIMKit.framework in Frameworks */,
-				837486716B95A81FC94876CC /* libPods.a in Frameworks */,
+				1CB0CC151BAE60B70D21EC51 /* libPods-autoService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -879,6 +842,14 @@
 			path = oneselfCentenr;
 			sourceTree = "<group>";
 		};
+		264E96A90889FABB49B22858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F6EA8C46001C94BE2A2C6D /* libPods-autoService.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4D0532EF1CB4A300000529DC /* 我的账户 */ = {
 			isa = PBXGroup;
 			children = (
@@ -894,16 +865,6 @@
 				4DC155C31CBC8E0A0093C37D /* CZWWithdrawCashViewController.m */,
 			);
 			path = "我的账户";
-			sourceTree = "<group>";
-		};
-		4D15DC191CAB6EEF00486ABE /* UMAnalytics_Sdk_3.6.7 */ = {
-			isa = PBXGroup;
-			children = (
-				4D15DC1A1CAB6EEF00486ABE /* libMobClickLibrary.a */,
-				4D15DC1B1CAB6EEF00486ABE /* MobClick.h */,
-				4D15DC1C1CAB6EEF00486ABE /* MobClickSocialAnalytics.h */,
-			);
-			path = UMAnalytics_Sdk_3.6.7;
 			sourceTree = "<group>";
 		};
 		4D21D5341C05668900F7DE77 /* 图片 */ = {
@@ -1089,66 +1050,6 @@
 				4DD145431CE41FD300378B3E /* TTTAttributedLabel.m */,
 			);
 			path = "UI控件";
-			sourceTree = "<group>";
-		};
-		4D4F65221C224C3000556A85 /* JSONModel */ = {
-			isa = PBXGroup;
-			children = (
-				4D4F65231C224C3000556A85 /* JSONModel */,
-				4D4F652C1C224C3000556A85 /* JSONModelCategories */,
-				4D4F652F1C224C3000556A85 /* JSONModelLib.h */,
-				4D4F65301C224C3000556A85 /* JSONModelNetworking */,
-				4D4F65371C224C3000556A85 /* JSONModelTransformations */,
-			);
-			path = JSONModel;
-			sourceTree = "<group>";
-		};
-		4D4F65231C224C3000556A85 /* JSONModel */ = {
-			isa = PBXGroup;
-			children = (
-				4D4F65241C224C3000556A85 /* JSONModel.h */,
-				4D4F65251C224C3000556A85 /* JSONModel.m */,
-				4D4F65261C224C3000556A85 /* JSONModelArray.h */,
-				4D4F65271C224C3000556A85 /* JSONModelArray.m */,
-				4D4F65281C224C3000556A85 /* JSONModelClassProperty.h */,
-				4D4F65291C224C3000556A85 /* JSONModelClassProperty.m */,
-				4D4F652A1C224C3000556A85 /* JSONModelError.h */,
-				4D4F652B1C224C3000556A85 /* JSONModelError.m */,
-			);
-			path = JSONModel;
-			sourceTree = "<group>";
-		};
-		4D4F652C1C224C3000556A85 /* JSONModelCategories */ = {
-			isa = PBXGroup;
-			children = (
-				4D4F652D1C224C3000556A85 /* NSArray+JSONModel.h */,
-				4D4F652E1C224C3000556A85 /* NSArray+JSONModel.m */,
-			);
-			path = JSONModelCategories;
-			sourceTree = "<group>";
-		};
-		4D4F65301C224C3000556A85 /* JSONModelNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				4D4F65311C224C3000556A85 /* JSONAPI.h */,
-				4D4F65321C224C3000556A85 /* JSONAPI.m */,
-				4D4F65331C224C3000556A85 /* JSONHTTPClient.h */,
-				4D4F65341C224C3000556A85 /* JSONHTTPClient.m */,
-				4D4F65351C224C3000556A85 /* JSONModel+networking.h */,
-				4D4F65361C224C3000556A85 /* JSONModel+networking.m */,
-			);
-			path = JSONModelNetworking;
-			sourceTree = "<group>";
-		};
-		4D4F65371C224C3000556A85 /* JSONModelTransformations */ = {
-			isa = PBXGroup;
-			children = (
-				4D4F65381C224C3000556A85 /* JSONKeyMapper.h */,
-				4D4F65391C224C3000556A85 /* JSONKeyMapper.m */,
-				4D4F653A1C224C3000556A85 /* JSONValueTransformer.h */,
-				4D4F653B1C224C3000556A85 /* JSONValueTransformer.m */,
-			);
-			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
 		4D4F65721C22B37900556A85 /* 融云 */ = {
@@ -1449,9 +1350,7 @@
 		4D93A5CB1C06DD4700B0C21C /* autoService3rd */ = {
 			isa = PBXGroup;
 			children = (
-				4D15DC191CAB6EEF00486ABE /* UMAnalytics_Sdk_3.6.7 */,
-				4D4F65221C224C3000556A85 /* JSONModel */,
-				4DD662761C21110000B0DC4E /* Rong_Cloud_iOS_SDK_v2_4_0_stable */,
+				4DE408431DB0AF6E001882E8 /* Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable */,
 				4D3B9A981C169FB80001204F /* FMDB */,
 				4DB7863F1C0BFB380008ED48 /* index */,
 				4D93A62B1C06DD7C00B0C21C /* 相册 */,
@@ -1647,20 +1546,6 @@
 			path = index;
 			sourceTree = "<group>";
 		};
-		4DD662761C21110000B0DC4E /* Rong_Cloud_iOS_SDK_v2_4_0_stable */ = {
-			isa = PBXGroup;
-			children = (
-				4DD662771C21110000B0DC4E /* Emoji.plist */,
-				4DD662781C21110000B0DC4E /* RongCloudKit.strings */,
-				4DD6627A1C21110000B0DC4E /* libopencore-amrnb.a */,
-				4DD6627B1C21110000B0DC4E /* release_notes_ios.txt */,
-				4DD6627C1C21110000B0DC4E /* RongCloud.bundle */,
-				4DD6627D1C21110000B0DC4E /* RongIMKit.framework */,
-				4DD6627E1C21110000B0DC4E /* RongIMLib.framework */,
-			);
-			path = Rong_Cloud_iOS_SDK_v2_4_0_stable;
-			sourceTree = "<group>";
-		};
 		4DD662871C21113800B0DC4E /* framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -1683,7 +1568,6 @@
 				4DD662931C21502600B0DC4E /* CoreAudio.framework */,
 				4DD662911C214FFE00B0DC4E /* CFNetwork.framework */,
 				4DD6628F1C214FF400B0DC4E /* AVFoundation.framework */,
-				4DD6628D1C214FEB00B0DC4E /* AudioToolbox.framework */,
 				4DD6628B1C214FDF00B0DC4E /* AssetsLibrary.framework */,
 			);
 			path = framework;
@@ -1729,6 +1613,21 @@
 			path = "加载提示框";
 			sourceTree = "<group>";
 		};
+		4DE408431DB0AF6E001882E8 /* Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable */ = {
+			isa = PBXGroup;
+			children = (
+				4DE408441DB0AF6E001882E8 /* Emoji.plist */,
+				4DE408451DB0AF6E001882E8 /* RongCloudKit.strings */,
+				4DE408471DB0AF6E001882E8 /* libopencore-amrnb.a */,
+				4DE408481DB0AF6E001882E8 /* RCConfig.plist */,
+				4DE408491DB0AF6E001882E8 /* release_notes_ios.txt */,
+				4DE4084A1DB0AF6E001882E8 /* RongCloud.bundle */,
+				4DE4084B1DB0AF6E001882E8 /* RongIMKit.framework */,
+				4DE4084C1DB0AF6E001882E8 /* RongIMLib.framework */,
+			);
+			path = Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable;
+			sourceTree = "<group>";
+		};
 		4DEB207F1C055C15002A0C48 = {
 			isa = PBXGroup;
 			children = (
@@ -1737,8 +1636,8 @@
 				4DEB20A41C055C16002A0C48 /* autoServiceTests */,
 				4DEB20AF1C055C16002A0C48 /* autoServiceUITests */,
 				4DEB20891C055C15002A0C48 /* Products */,
-				5B8C3C3EFA19DE6F07C1A53D /* Pods */,
-				52CC2A573CACFE412E9FD2A4 /* Frameworks */,
+				BE04CD82E65072247C18A60A /* Pods */,
+				264E96A90889FABB49B22858 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1821,19 +1720,11 @@
 			path = "应用图片";
 			sourceTree = "<group>";
 		};
-		52CC2A573CACFE412E9FD2A4 /* Frameworks */ = {
+		BE04CD82E65072247C18A60A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				29E59B4DEC22D3C0E1A22BC2 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5B8C3C3EFA19DE6F07C1A53D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				55EFEBB78BFB66B272F2DC3F /* Pods.debug.xcconfig */,
-				7AFB785BF3B619FF184FD245 /* Pods.release.xcconfig */,
+				078387357A6312BDC0AD6BA5 /* Pods-autoService.debug.xcconfig */,
+				181A3429D1574CB4535967A5 /* Pods-autoService.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1845,12 +1736,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DEB20B51C055C16002A0C48 /* Build configuration list for PBXNativeTarget "autoService" */;
 			buildPhases = (
-				7B50C4DAAE16FC1334E5A6FE /* Check Pods Manifest.lock */,
+				DC1DC21B6AA23907633F169E /* [CP] Check Pods Manifest.lock */,
 				4DEB20841C055C15002A0C48 /* Sources */,
 				4DEB20851C055C15002A0C48 /* Frameworks */,
 				4DEB20861C055C15002A0C48 /* Resources */,
-				FECDEE09E1BADA6C24B76ABB /* Embed Pods Frameworks */,
-				E5B5860CDBF814DCE7070DDC /* Copy Pods Resources */,
+				0D0404231FBA5B2E0FFAA309 /* [CP] Embed Pods Frameworks */,
+				40BC39027811562FBFBD8CCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1911,6 +1802,12 @@
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = MFH5RT668M;
 						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -1955,10 +1852,10 @@
 				4DE825801D6D9D5200823E10 /* center_flowChart@2x.png in Resources */,
 				4DEA09331CC084D1004F6378 /* 支付宝@2x.png in Resources */,
 				4D4C3F461C2A8CE50050F3A2 /* user_ evaluation@2x.png in Resources */,
+				4DE4084E1DB0AF6E001882E8 /* Emoji.plist in Resources */,
 				4D8543CA1C08331700AD6881 /* auto_userCenter@2x.png in Resources */,
 				4D93A6421C06DD7C00B0C21C /* FriendsSendsPicturesSelectBigNIcon@2x.png in Resources */,
 				4D2DE54D1CDB369E001B7B86 /* center_account@2x.png in Resources */,
-				4DD662841C21110000B0DC4E /* RongCloud.bundle in Resources */,
 				4D21D5841C05AA7C00F7DE77 /* loginPassword@2x.png in Resources */,
 				4D7936571C4487FA00505F50 /* StarsBackground@2x.png in Resources */,
 				4D7290601C1516C300B4553F /* proviceList.plist in Resources */,
@@ -1992,9 +1889,9 @@
 				4D21D5401C05671B00F7DE77 /* rootViewUser@2x.png in Resources */,
 				4D93A6431C06DD7C00B0C21C /* FriendsSendsPicturesSelectBigYIcon@2x.png in Resources */,
 				4D8543D41C08458700AD6881 /* auto_toolbarBackImage@2x.png in Resources */,
-				4DD662831C21110000B0DC4E /* release_notes_ios.txt in Resources */,
 				4D818AB51C0D466A005F3CBD /* appeal_carInformation@2x.png in Resources */,
 				15E294931C09F35600EF16E3 /* center_appeals@2x.png in Resources */,
+				4DE408521DB0AF6E001882E8 /* release_notes_ios.txt in Resources */,
 				4D9D979A1C1FF14A00B0E46D /* user_checkApplearStateGoing@2x.png in Resources */,
 				15E294A01C0A08C000EF16E3 /* expert_Assist@2x.png in Resources */,
 				4D21D5771C05888800F7DE77 /* rootViewBackImage@2x.png in Resources */,
@@ -2004,8 +1901,10 @@
 				4DD89B851D758535008023F7 /* 三包-640-960-改-1.jpg in Resources */,
 				4D7936591C4487FE00505F50 /* StarsForeground@2x.png in Resources */,
 				4D8543CC1C08352900AD6881 /* auto_searchMirror@2x.png in Resources */,
+				4DE408511DB0AF6E001882E8 /* RCConfig.plist in Resources */,
 				4DEB209B1C055C15002A0C48 /* LaunchScreen.storyboard in Resources */,
 				4D590A7C1CA1323500D6418D /* expert_prolosal@2x.png in Resources */,
+				4DE4084F1DB0AF6E001882E8 /* RongCloudKit.strings in Resources */,
 				4D3ACEF91C17F392004E9F7D /* auto_cleanSearchHistory@2x.png in Resources */,
 				4D1AEA1F1CCF0229000F7E99 /* 采纳图标@2x.png in Resources */,
 				4D818AA31C0D2F44005F3CBD /* complainQuality.plist in Resources */,
@@ -2013,6 +1912,7 @@
 				4D0532F71CB51D79000529DC /* auto_adviceProposal@2x.png in Resources */,
 				4D3B75621C2BC7BC002F77C3 /* user_appealStateTimepiece@2x.png in Resources */,
 				4D21D57E1C05A3F900F7DE77 /* bar_btn_returnt@2x.png in Resources */,
+				4DE408531DB0AF6E001882E8 /* RongCloud.bundle in Resources */,
 				4DEEFBB61C7416E9000F160E /* Icon-Small-40@2x.png in Resources */,
 				4D5B5B4F1CB74EA9008BD40D /* 账号保护@2x.png in Resources */,
 				15E294941C09F35600EF16E3 /* center_collects@2x.png in Resources */,
@@ -2020,7 +1920,6 @@
 				4D4C3F3C1C2A381C0050F3A2 /* expert_willAppeal@2x.png in Resources */,
 				4DF519141D1CBD83005E58FF /* Entitlements.plist in Resources */,
 				4DEEFBB81C7416E9000F160E /* Icon-60@2x.png in Resources */,
-				4DD662811C21110000B0DC4E /* RongCloudKit.strings in Resources */,
 				4D4C3F4B1C2AA1340050F3A2 /* auto_chatAddFriend@2x.png in Resources */,
 				4D5A699F1C5B0975008A072A /* appeal_triangle@2x.png in Resources */,
 				4D3E96401D0E865300999A3D /* auto_telephoneImage@2x.png in Resources */,
@@ -2043,7 +1942,6 @@
 				4D93A5AE1C06B80100B0C21C /* city.plist in Resources */,
 				4DB786521C0C47FD0008ED48 /* user_willApplear@2x.png in Resources */,
 				4D93A6441C06DD7C00B0C21C /* item_left@2x.png in Resources */,
-				4DD662801C21110000B0DC4E /* Emoji.plist in Resources */,
 				4DEEFBB71C7416E9000F160E /* Icon-Small@3x.png in Resources */,
 				4D53A33B1C6189FE00B10540 /* auto_userInformation@2x.png in Resources */,
 				15E2949E1C0A07CF00EF16E3 /* expertIconDefaultImage@2x.png in Resources */,
@@ -2069,49 +1967,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7B50C4DAAE16FC1334E5A6FE /* Check Pods Manifest.lock */ = {
+		0D0404231FBA5B2E0FFAA309 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoService/Pods-autoService-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40BC39027811562FBFBD8CCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-autoService/Pods-autoService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1DC21B6AA23907633F169E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E5B5860CDBF814DCE7070DDC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FECDEE09E1BADA6C24B76ABB /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2136,7 +2034,6 @@
 				4D8AB9911C113F4200A55615 /* CZWExpertInformationCell.m in Sources */,
 				4D4753471C34F6B100B4E3F3 /* CZWHttpModelResults.m in Sources */,
 				4D555FBD1D10FB090091ED2E /* CZWAdvertisementViewController.m in Sources */,
-				4D4F65431C224C3000556A85 /* JSONModel+networking.m in Sources */,
 				4DDDF0C91CF80D8C00600671 /* CZWEnterpriseInformationViewController.m in Sources */,
 				4D818ABF1C0D7DC6005F3CBD /* CZWUserInformationCell.m in Sources */,
 				4D4AFE911CCDE372007DEBEC /* CZWTextField.m in Sources */,
@@ -2166,7 +2063,6 @@
 				4D2DE53E1CDB1308001B7B86 /* AFHTTPSessionManager+CachePolicy.m in Sources */,
 				4D8AB98E1C113EEB00A55615 /* CZWExpertInformationViewController.m in Sources */,
 				4D4AFE941CCDE372007DEBEC /* LHCoreTextView.m in Sources */,
-				4D4F65401C224C3000556A85 /* NSArray+JSONModel.m in Sources */,
 				4D4C3F341C28F82A0050F3A2 /* CZWTextMessage.m in Sources */,
 				4D59DE571C96B58300E0BDCE /* AttributStage.m in Sources */,
 				4D93A5CA1C06DCB100B0C21C /* CityChooseViewController.m in Sources */,
@@ -2189,7 +2085,6 @@
 				1594E3EE1C0A4C6D0075CE35 /* CZWAboutViewController.m in Sources */,
 				4D7196A11C86926500BA19D4 /* CZWBasicObject.m in Sources */,
 				4D21D56B1C05839400F7DE77 /* CZWUserLoginViewController.m in Sources */,
-				4D4F65451C224C3000556A85 /* JSONValueTransformer.m in Sources */,
 				4DDDF0CA1CF80D8C00600671 /* CZWPromoteListViewController.m in Sources */,
 				4D93A63F1C06DD7C00B0C21C /* LHAssetViewCell.m in Sources */,
 				4D85DD071C5F559400F9A742 /* CZWDrawRectView.m in Sources */,
@@ -2226,7 +2121,6 @@
 				4D21D5481C056AAA00F7DE77 /* CZWBasicNavigationController.m in Sources */,
 				4DC155C11CBC7F0C0093C37D /* CZWBillViewController.m in Sources */,
 				4DB7863B1C0BEBDC0008ED48 /* CZWAppealStateView.m in Sources */,
-				4D4F653F1C224C3000556A85 /* JSONModelError.m in Sources */,
 				4DC155C41CBC8E0A0093C37D /* CZWWithdrawCashViewController.m in Sources */,
 				4DD89B831D752026008023F7 /* CZWExpertUpdateRegisterInfoViewController.m in Sources */,
 				4D8AB99A1C116D3300A55615 /* CZWNewsUserFriendsCell.m in Sources */,
@@ -2256,10 +2150,8 @@
 				4D93A5B91C06D80700B0C21C /* UIDevice-Reachability.m in Sources */,
 				4D7916751C3A0AE7006E4874 /* CZWUserInfoUser.m in Sources */,
 				4D528A661C7BE89B0079669B /* CZWUserAppealCellView.m in Sources */,
-				4D4F65411C224C3000556A85 /* JSONAPI.m in Sources */,
 				15E294A31C0A11BD00EF16E3 /* CZWSettingViewController.m in Sources */,
 				4D818ACD1C0D8DAA005F3CBD /* CZWExpertCardViewController.m in Sources */,
-				4D4F653C1C224C3000556A85 /* JSONModel.m in Sources */,
 				4D51C4DA1C1E4E9F004BE142 /* NSString+CZWNSString.m in Sources */,
 				4DD956F81CC89EB100E6F80F /* CZWManager.m in Sources */,
 				4DDE7AE31CCA000C00D3F32B /* TestLabel.m in Sources */,
@@ -2278,14 +2170,10 @@
 				4DA7434E1C0E81C5007578BC /* CZWChatRecordViewController.m in Sources */,
 				4DEA092E1CC07008004F6378 /* EditImageCell.m in Sources */,
 				4D3B9AA41C169FB80001204F /* FMDatabaseAdditions.m in Sources */,
-				4D4F653E1C224C3000556A85 /* JSONModelClassProperty.m in Sources */,
 				4D3ACEFC1C180658004E9F7D /* CZWSearchResultsViewController.m in Sources */,
 				4D3B9AA61C169FB80001204F /* FMDatabaseQueue.m in Sources */,
 				4D53A3411C6191CB00B10540 /* NSMutableAttributedString+CZWMutableAttributedString.m in Sources */,
-				4D4F65441C224C3000556A85 /* JSONKeyMapper.m in Sources */,
-				4D4F65421C224C3000556A85 /* JSONHTTPClient.m in Sources */,
 				4DB474381D0E3E30000FFCDD /* CZWModifyAccountViewController.m in Sources */,
-				4D4F653D1C224C3000556A85 /* JSONModelArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2321,11 +2209,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4DD662781C21110000B0DC4E /* RongCloudKit.strings */ = {
+		4DE408451DB0AF6E001882E8 /* RongCloudKit.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4DD662791C21110000B0DC4E /* en */,
-				4DD6627F1C21110000B0DC4E /* zh-Hans */,
+				4DE408461DB0AF6E001882E8 /* en */,
+				4DE4084D1DB0AF6E001882E8 /* zh-Hans */,
 			);
 			name = RongCloudKit.strings;
 			sourceTree = "<group>";
@@ -2431,7 +2319,7 @@
 		};
 		4DEB20B61C055C16002A0C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55EFEBB78BFB66B272F2DC3F /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 078387357A6312BDC0AD6BA5 /* Pods-autoService.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2442,6 +2330,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/autoService/3rd/Rong_Cloud_iOS_SDK_v2_4_0_stable",
+					"$(PROJECT_DIR)/autoService/3rd/Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/autoService/CZWPch.pch";
 				INFOPLIST_FILE = autoService/Info.plist;
@@ -2451,6 +2340,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/autoService/3rd/Rong_Cloud_iOS_SDK_v2_4_0_stable",
 					"$(PROJECT_DIR)/autoService/3rd/UMAnalytics_Sdk_3.6.7",
+					"$(PROJECT_DIR)/autoService/3rd/Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.12365auto.threeService;
 				PRODUCT_NAME = threeService;
@@ -2460,7 +2350,7 @@
 		};
 		4DEB20B71C055C16002A0C48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AFB785BF3B619FF184FD245 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 181A3429D1574CB4535967A5 /* Pods-autoService.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2472,6 +2362,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/autoService/3rd/Rong_Cloud_iOS_SDK_v2_4_0_stable",
+					"$(PROJECT_DIR)/autoService/3rd/Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/autoService/CZWPch.pch";
 				INFOPLIST_FILE = autoService/Info.plist;
@@ -2481,6 +2372,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/autoService/3rd/Rong_Cloud_iOS_SDK_v2_4_0_stable",
 					"$(PROJECT_DIR)/autoService/3rd/UMAnalytics_Sdk_3.6.7",
+					"$(PROJECT_DIR)/autoService/3rd/Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.12365auto.threeService;
 				PRODUCT_NAME = threeService;

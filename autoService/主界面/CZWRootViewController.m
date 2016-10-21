@@ -110,7 +110,7 @@
         make.left.bottom.and.right.equalTo(0);
         make.top.equalTo(self.advertisement.bottom);
     }];
-    
+
     [self setting];
     [self createLeftItem];
     [self createRightItem];

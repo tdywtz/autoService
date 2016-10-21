@@ -143,8 +143,9 @@ NSString * const CarImage = @"CarImage";
 }
 
 -(void)viewDidLayoutSubviews{
-    [next layoutIfNeeded];
-    self.scrollView.contentSize = CGSizeMake(0,next.frame.origin.y+next.frame.size.height+60);
+//    [next setNeedsLayout];
+//    [next layoutIfNeeded];
+//    self.scrollView.contentSize = CGSizeMake(0,next.frame.origin.y+next.frame.size.height+60);
 }
 
 #pragma mark - 头部
@@ -831,6 +832,7 @@ NSString * const CarImage = @"CarImage";
         make.left.equalTo(10);
         make.top.equalTo(test.bottom).offset(20);
         make.size.equalTo(CGSizeMake(WIDTH-20, 40));
+        make.bottom.equalTo(-100);
     }];
     
     [labeltishi makeConstraints:^(MASConstraintMaker *make) {

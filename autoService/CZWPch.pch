@@ -27,7 +27,7 @@
 #import "CZWWaiteView.h"
 #import "CZWIMInputTextView.h"
 #import "MBProgressHUD.h"
-#import "MobClick.h"
+#import <UMMobClick/MobClick.h>
 #import "TTTAttributedLabel.h"
 
 //define this constant if you want to use Masonry without the 'mas_' prefix

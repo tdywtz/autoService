@@ -8,6 +8,6 @@
 
 #import <RongIMKit/RongIMKit.h>
 
-@interface CZWLocationViewController : RCLocationViewController
+@interface CZWLocationViewController : RCLocationPickerViewController
 
 @end

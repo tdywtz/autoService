@@ -366,6 +366,7 @@
     [CZWAFHttpRequest GET:urlString success:^(id responseObject) {
         _companyInfo = responseObject;
         self.title = responseObject[@"facName"];
+    
         [hud hideAnimated:YES];
          [_tableView reloadData];
     } failure:^(NSError *error) {

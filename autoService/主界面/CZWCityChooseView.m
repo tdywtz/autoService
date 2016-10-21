@@ -45,6 +45,7 @@
     } failure:^(NSError *error) {
         
     }];
+    NSLog(@"%@",auto_province);
 }
 
 -(void)loadDataTwo:(NSString *)pid{

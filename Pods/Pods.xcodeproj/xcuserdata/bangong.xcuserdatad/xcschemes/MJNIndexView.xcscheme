@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B3CBB80CA0C4482E5B6EA17F'
+               BlueprintIdentifier = 'D799B0D35657135C62318A00756D570B'
                BlueprintName = 'MJNIndexView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libMJNIndexView.a'>

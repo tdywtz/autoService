@@ -212,9 +212,10 @@
  */
 - (void)presentLocationViewController:(RCLocationMessage *)locationMessageContent{
     CZWLocationViewController *location = [[CZWLocationViewController alloc] init];
+
     UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:location];
-    location.locationName =  locationMessageContent.locationName;
-    location.location = locationMessageContent.location;
+//    location.locationName =  locationMessageContent.locationName;
+//    location.location = locationMessageContent.location;
     [self presentViewController:nvc animated:YES completion:nil];
 }
 
@@ -248,7 +249,8 @@
                 RCImageMessage *imageMessage = [RCImageMessage messageWithImage:image];
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(time * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                     __strong __typeof(weakSelf)strongSelf = weakSelf;
-                     [strongSelf sendImageMessage:imageMessage pushContent:@"图片"];
+                    [strongSelf sendMediaMessage:imageMessage pushContent:@"图片"];
+                    // [strongSelf sendImageMessage:imageMessage pushContent:@"图片"];
                 });
                 time = time+i*0.2;
             }

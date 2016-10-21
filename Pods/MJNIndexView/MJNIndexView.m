@@ -222,7 +222,7 @@
     
     // calculating size of all index items
     for (NSString *item in self.indexItems) {
-        CGSize currentItemSize = [item sizeWithAttributes:@{NSFontAttributeName:self.font}];
+        CGSize currentItemSize = [item sizeWithFont:self.font];
         indexSize.height += entireHeight;
         if (currentItemSize.width > indexSize.width) {
             indexSize.width = currentItemSize.width;
