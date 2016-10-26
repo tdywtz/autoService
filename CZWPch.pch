@@ -1,0 +1,60 @@
+//
+//  CZWPch.pch
+//  autoService
+//
+//  Created by bangong on 15/11/25.
+//  Copyright © 2015年 车质网. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "LHController.h"
+#import "CZWColor.h"
+#import "CZWUrl.h"
+#import "CZWAlert.h"
+#import "CZWManager.h"
+#import "CZWActionSheet.h"
+#import "UIImageView+WebCache.h"
+#import "CZWFmdbManager.h"
+#import "NSAttributedString+CZWAttributedString.h"
+#import "NSMutableAttributedString+CZWMutableAttributedString.h"
+#import "NSString+CZWNSString.h"
+#import <RongIMKit/RongIMKit.h>
+#import "CZWHttpModelResults.h"
+#import "NSString-Helper.h"
+#import "MJRefresh.h"
+#import "CZWTextField.h"
+#import "CZWWaiteView.h"
+#import "CZWIMInputTextView.h"
+#import "MBProgressHUD.h"
+#import <UMMobClick/MobClick.h>
+#import "TTTAttributedLabel.h"
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+
+#define DEFAULTS [NSUserDefaults standardUserDefaults]//
+#define NOTIFICATIONMESSAGE @"NOTIFICATIONMESSAGE"//新消息通知
+#define AppWillEnterForeground @"AppWillEnterForeground"//程序从后台进入前台
+
+#define SYSTEM_VERSION_GREATER_THAN(V)  [[[UIDevice currentDevice] systemVersion]floatValue]>V||[[[UIDevice currentDevice] systemVersion]floatValue]==V
+#define PT_FROM_PX(px) (72.0/96)*px
+
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+
+#define factor_height HEIGHT/667//高度比例系数
+#define factor_width WIDTH/375//宽度比例系数
+
+#define appEntrance @"9" //app入口标识
+
+#define chatToken @"chatToken"
+
+#define USERTYPE_USER @"1"//用户
+#define USERTYPE_EXPERT @"2"//专家
+
+#endif
