@@ -142,8 +142,8 @@
     conversationVC.title = model.conversationTitle
     ;
     if (conversationVC.title.length == 0) {
-        [[CZWManager manager] getChatUserInfoWithId:model.targetId success:^(CZWChatUserInfo *info) {
-            conversationVC.title = info.userName;
+        [CZWHttpModelResults requestChatUserInfoWithUserId:model.targetId success:^(CZWChatUserInfo *userInfo) {
+            conversationVC.title = userInfo.userName;
         }];
     }
     [self.navigationController pushViewController:conversationVC animated:YES];

@@ -11,14 +11,7 @@
 @implementation LHController
 
 +(CGFloat)setFont{
-    CGFloat width = [UIScreen mainScreen].bounds.size.width;
-//    if (width == 320.0) {
-//        return 15;
-//    }else if (width == 375.0){
-//        return 17;
-//    }else if (width  > 380){
-//        return 18;
-//    }
+
     return 17;
 }
 

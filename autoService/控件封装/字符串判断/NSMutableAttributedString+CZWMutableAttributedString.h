@@ -16,5 +16,5 @@
 
 +(NSMutableAttributedString *)attributedStringWithStage:(AttributStage *)stage string:(NSString *)string;
 
--(NSInteger)linesWith:(CGFloat)width;
+//-(NSInteger)linesWith:(CGFloat)width;
 @end

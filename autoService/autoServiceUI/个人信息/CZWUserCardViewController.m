@@ -137,13 +137,6 @@
             
             [[SDImageCache sharedImageCache] removeImageForKey:self.infoUser.img];
             [[CZWManager manager] updataUserInfo];
-            [[CZWManager manager] getChatUserInfoWithId:[CZWManager manager].rongyunID success:^(CZWChatUserInfo *info) {
-                if (info) {
-                    info.iconUrl = self.infoUser.img;
-                    [[CZWManager manager] updataChatInfoImageWithUserInfo:info];
-                }
-            }];
-           
             [self loadData];
         }
 

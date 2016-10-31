@@ -143,8 +143,8 @@ extern NSString *const plistProviceList;
  *  @param userId  融云id
  *  @param success 成功返回
  */
--(void)getChatUserInfoWithId:(NSString *)userId
-                     success:(void(^)(CZWChatUserInfo *info))success;
+//-(void)getChatUserInfoWithId:(NSString *)userId
+//                     success:(void(^)(CZWChatUserInfo *info))success;
 
 
 /**
@@ -152,20 +152,20 @@ extern NSString *const plistProviceList;
  *
  *  @param userInfo 聊天用户信息
  */
--(void)updataChatInfoImageWithUserInfo:(CZWChatUserInfo *)userInfo;
+//-(void)updataChatInfoImageWithUserInfo:(CZWChatUserInfo *)userInfo;
 
 /**
  *  添加好友
  *
  *  @param userId 融云id
  */
--(void)addFriendsWithId:(NSString *)userId type:(FriendType)type;
+//-(void)addFriendsWithId:(NSString *)userId type:(FriendType)type;
 
 
 /**
  *  更新新好友列表
  */
-- (void)refreshFriendsList;
+//- (void)refreshFriendsList;
 
 
 /**
@@ -174,8 +174,8 @@ extern NSString *const plistProviceList;
  *  @param type    好友类型（专家，用户）
  *  @param success block
  */
--(void)updateFriendsListWithType:(CCUserType)type
-                         success:(void (^)())success;
+//-(void)updateFriendsListWithType:(CCUserType)type
+//                         success:(void (^)())success;
 /**
  *  返回是否有未读好友消息
  *

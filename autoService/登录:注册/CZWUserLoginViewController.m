@@ -188,7 +188,7 @@
             [[CZWManager manager] updataManager];
             [[CZWFmdbManager manager] updataManager];
             //更新好友列表
-            [[CZWManager manager] refreshFriendsList];
+           // [[CZWManager manager] refreshFriendsList];
             
             [[RCIM sharedRCIM] connectWithToken:[user objectForKey:chatToken] success:^(NSString *userId) {
                 NSLog(@"登陆成功。当前登录的用户ID：%@", userId);

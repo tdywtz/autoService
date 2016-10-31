@@ -449,10 +449,10 @@ handleWatchKitExtensionRequest:(NSDictionary *)userInfo
             }else{
                 [[CZWManager manager] setUnreadMessageOfAddFriends:YES type:USERTYPE_EXPERT];
             }
-            if ([noti.operation isEqualToString:@"同意"]) {
-                [[CZWManager manager] addFriendsWithId:noti.sourceUserId type:FriendTypeYes];
-            }
-            
+//            if ([noti.operation isEqualToString:@"同意"]) {
+//                [[CZWManager manager] addFriendsWithId:noti.sourceUserId type:FriendTypeYes];
+//            }
+
         }
     }else if ([message.content isMemberOfClass:[RCCommandMessage class]]){
         // NSLog(@"融云消息类型=%@___%@",@(message.conversationType),message.content);
@@ -490,12 +490,12 @@ handleWatchKitExtensionRequest:(NSDictionary *)userInfo
  */
 - (void)getUserInfoWithUserId:(NSString *)userId
                    completion:(void (^)(RCUserInfo *userInfo))completion{
-       //更新好友列表数据
+//       //更新好友列表数据
+//
+//    if (![userId isEqualToString:[CZWManager manager].rongyunID]) {
+//         [[CZWManager manager] addFriendsWithId:userId type:FriendTypeYes];
+//    }
 
-    if (![userId isEqualToString:[CZWManager manager].rongyunID]) {
-         [[CZWManager manager] addFriendsWithId:userId type:FriendTypeYes];
-    }
- 
     if ([userId isEqualToString:[RCIM sharedRCIM].currentUserInfo.userId]) {
         
         RCUserInfo *aUser = [[RCUserInfo alloc]initWithUserId:[CZWManager manager].rongyunID name:[CZWManager manager].roleName portrait:[CZWManager manager].roleIconImage];
@@ -505,11 +505,10 @@ handleWatchKitExtensionRequest:(NSDictionary *)userInfo
         return completion(aUser);
         
     }else{
-        
-        [[CZWManager manager] getChatUserInfoWithId:userId success:^(CZWChatUserInfo *info) {
-            RCUserInfo *aUser = [[RCUserInfo alloc] initWithUserId:info.userId name:info.userName portrait:info.iconUrl];
-           [[RCIM sharedRCIM] refreshUserInfoCache:aUser withUserId:aUser.userId];
-            
+        [CZWHttpModelResults requestChatUserInfoWithUserId:userId success:^(CZWChatUserInfo *userInfo) {
+            RCUserInfo *aUser = [[RCUserInfo alloc] initWithUserId:userInfo.userId name:userInfo.userName portrait:userInfo.iconUrl];
+            [[RCIM sharedRCIM] refreshUserInfoCache:aUser withUserId:aUser.userId];
+
             return completion(aUser);
         }];
     }

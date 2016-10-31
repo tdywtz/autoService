@@ -120,20 +120,21 @@
 }
 
 -(void)name:(NSString *)targetId{
-    [[CZWManager manager] getChatUserInfoWithId:targetId success:^(CZWChatUserInfo *info) {
-        if ([info.type isEqualToString:USERTYPE_EXPERT]) {
+    [CZWHttpModelResults requestChatUserInfoWithUserId:targetId success:^(CZWChatUserInfo *userInfo) {
+        if ([userInfo.type isEqualToString:USERTYPE_EXPERT]) {
             nameLabel.textColor = colorNavigationBarColor;
-            nameLabel.attributedText = [NSAttributedString expertName:info.userName];
+            nameLabel.attributedText = [NSAttributedString expertName:userInfo.userName];
             iconImageView.layer.cornerRadius = 25;
             iconImageView.layer.masksToBounds = YES;
         }else{
             nameLabel.textColor = colorOrangeRed;
-            nameLabel.text = info.userName;
+            nameLabel.text = userInfo.userName;
             iconImageView.layer.cornerRadius = 3;
             iconImageView.layer.masksToBounds = YES;
         }
-    
-        [iconImageView sd_setImageWithURL:[NSURL URLWithString:info.iconUrl] placeholderImage:[UIImage imageNamed:@"userIconDefaultImage"]];
+
+        [iconImageView sd_setImageWithURL:[NSURL URLWithString:userInfo.iconUrl] placeholderImage:[UIImage imageNamed:@"userIconDefaultImage"]];
+
     }];
 }
 

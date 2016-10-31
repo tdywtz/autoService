@@ -34,20 +34,7 @@
 }
 
 -(void)loadData:(BOOL)prograss friendsStyle:(friendsStyle)style{
-//   NSArray *array = [[CZWFmdbManager manager] selectListFromFriends];
-//    [_userArray removeAllObjects];
-//    [_expertArray removeAllObjects];
-//    for (CZWChatUserInfo *info in array) {
-//        
-//        if ([info.type isEqualToString:USERTYPE_EXPERT]) {
-//            [_expertArray addObject:info];
-//        }
-//        else if([info.type isEqualToString:USERTYPE_USER]){
-//            [_userArray addObject:info];
-//        }
-//    }
-//    
-//    [_tableView reloadData];
+
     MBProgressHUD *hud;
     if (prograss) {
         hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
@@ -145,15 +132,14 @@
     
     __weak __typeof(self)weakSelf = self;
     if (self.style == friendsStyleExpert) {
-        [[CZWManager manager] updateFriendsListWithType:CCUserType_Expert success:^{
+
             [refresh endRefreshing];
             [weakSelf loadData:NO friendsStyle:friendsStyleExpert];
-        }];
+
     }else{
-        [[CZWManager manager] updateFriendsListWithType:CCUserType_User success:^{
+
             [refresh endRefreshing];
             [weakSelf loadData:NO friendsStyle:friendsStyleUser];
-        }];
     }
 }
 

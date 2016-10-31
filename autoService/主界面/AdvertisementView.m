@@ -83,7 +83,7 @@
         //添加帧动画
         CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"contents"];
         NSMutableArray * times = [[NSMutableArray alloc]init];
-        CFTimeInterval currentTime = 0.5;
+       // CFTimeInterval currentTime = 0.5;
         //设置每一帧的时间占比
         for (int i=0; i<imageArray.count; i++) {
 //            [times addObject:[NSNumber numberWithFloat:currentTime/totalTime]];

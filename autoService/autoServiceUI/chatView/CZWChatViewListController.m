@@ -120,14 +120,6 @@
             NSLog(@"custom");
             model.conversationModelType = RC_CONVERSATION_MODEL_TYPE_CUSTOMIZATION;
         }
-         RCMessage *message = (RCMessage *)model.lastestMessage;
-//        if(message.extra)
-//        {
-//            
-//            model.conversationModelType = RC_CONVERSATION_MODEL_TYPE_CUSTOMIZATION;
-//            model.conversationType = ConversationType_SYSTEM;
-//        }
-
     }
 
     return dataSource;
@@ -173,29 +165,30 @@
 
     cc.conversationTitle.font = [UIFont systemFontOfSize:15];
     cc.messageCreatedTimeLabel.font = [UIFont systemFontOfSize:12];
-   [[CZWManager manager] getChatUserInfoWithId:model.targetId success:^(CZWChatUserInfo *info) {
-      [CZWManager After:0.1 perform:^{
-          
-          if ([info.type isEqualToString:USERTYPE_EXPERT]) {
-              cc.conversationTitle.textColor = colorNavigationBarColor;
-              cc.conversationTitle.attributedText = [NSAttributedString expertName:info.userName];
-         
-            [imageview sd_setImageWithURL:[NSURL URLWithString:info.iconUrl] placeholderImage:[UIImage imageNamed:@""]];
-              
-              imageview.layer.cornerRadius = 22.5;
-              imageview.layer.masksToBounds = YES;
-              
-          }else{
-           
-             [imageview sd_setImageWithURL:[NSURL URLWithString:info.iconUrl] placeholderImage:[UIImage imageNamed:@""]];
-              
-              cc.conversationTitle.text = info.userName;
-              cc.conversationTitle.textColor = colorYellow;
-              imageview.layer.cornerRadius = 3;
-              imageview.layer.masksToBounds = YES;
-          }
-      }];
-   }];
+    [CZWHttpModelResults requestChatUserInfoWithUserId:model.targetId success:^(CZWChatUserInfo *userInfo) {
+        [CZWManager After:0.1 perform:^{
+
+            if ([userInfo.type isEqualToString:USERTYPE_EXPERT]) {
+                cc.conversationTitle.textColor = colorNavigationBarColor;
+                cc.conversationTitle.attributedText = [NSAttributedString expertName:userInfo.userName];
+
+                [imageview sd_setImageWithURL:[NSURL URLWithString:userInfo.iconUrl] placeholderImage:[UIImage imageNamed:@""]];
+
+                imageview.layer.cornerRadius = 22.5;
+                imageview.layer.masksToBounds = YES;
+
+            }else{
+
+                [imageview sd_setImageWithURL:[NSURL URLWithString:userInfo.iconUrl] placeholderImage:[UIImage imageNamed:@""]];
+
+                cc.conversationTitle.text = userInfo.userName;
+                cc.conversationTitle.textColor = colorYellow;
+                imageview.layer.cornerRadius = 3;
+                imageview.layer.masksToBounds = YES;
+            }
+        }];
+
+    }];
 }
 
 //自定义cell

@@ -202,7 +202,7 @@
         /**
          *  添加到好友列表
          */
-        [[CZWManager manager] addFriendsWithId:model.userInfo.userId type:FriendTypeYes];
+      //  [[CZWManager manager] addFriendsWithId:model.userInfo.userId type:FriendTypeYes];
     }
 }
 

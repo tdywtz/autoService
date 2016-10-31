@@ -139,14 +139,6 @@
             
             [[SDImageCache sharedImageCache] removeImageForKey:self.dictionary[@"headpic"]];
             [[CZWManager manager] updataUserInfo];
-            [[CZWManager manager] getChatUserInfoWithId:[CZWManager manager].rongyunID success:^(CZWChatUserInfo *info) {
-                if (info) {
-                    info.iconUrl = self.dictionary[@"headpic"];
-                    [[CZWManager manager] updataChatInfoImageWithUserInfo:info];
-                }
-            }];
-            
-
             [self loadData];
         }
 
