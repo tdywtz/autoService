@@ -254,14 +254,6 @@
 		4DDE7AD81CC9BEE000D3F32B /* 三角@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DDE7AD71CC9BEE000D3F32B /* 三角@2x.png */; };
 		4DDE7AE31CCA000C00D3F32B /* TestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE7AE21CCA000C00D3F32B /* TestLabel.m */; };
 		4DE1C9AC1CAA49C7008B0A8A /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1C9AB1CAA49C7008B0A8A /* MBProgressHUD.m */; };
-		4DE4084E1DB0AF6E001882E8 /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DE408441DB0AF6E001882E8 /* Emoji.plist */; };
-		4DE4084F1DB0AF6E001882E8 /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DE408451DB0AF6E001882E8 /* RongCloudKit.strings */; };
-		4DE408501DB0AF6E001882E8 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE408471DB0AF6E001882E8 /* libopencore-amrnb.a */; };
-		4DE408511DB0AF6E001882E8 /* RCConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DE408481DB0AF6E001882E8 /* RCConfig.plist */; };
-		4DE408521DB0AF6E001882E8 /* release_notes_ios.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4DE408491DB0AF6E001882E8 /* release_notes_ios.txt */; };
-		4DE408531DB0AF6E001882E8 /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DE4084A1DB0AF6E001882E8 /* RongCloud.bundle */; };
-		4DE408541DB0AF6E001882E8 /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4084B1DB0AF6E001882E8 /* RongIMKit.framework */; };
-		4DE408551DB0AF6E001882E8 /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4084C1DB0AF6E001882E8 /* RongIMLib.framework */; };
 		4DE825751D6D69F900823E10 /* CZWFlowChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE825741D6D69F900823E10 /* CZWFlowChartViewController.m */; };
 		4DE825801D6D9D5200823E10 /* center_flowChart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE8257F1D6D9D5200823E10 /* center_flowChart@2x.png */; };
 		4DEA092E1CC07008004F6378 /* EditImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA092B1CC07008004F6378 /* EditImageCell.m */; };
@@ -706,15 +698,6 @@
 		4DE1C9AB1CAA49C7008B0A8A /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4DE3269E1D12742700A8956A /* CZWColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZWColor.h; sourceTree = "<group>"; };
 		4DE3269F1D12743100A8956A /* CZWUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZWUrl.h; sourceTree = "<group>"; };
-		4DE408441DB0AF6E001882E8 /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
-		4DE408461DB0AF6E001882E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
-		4DE408471DB0AF6E001882E8 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
-		4DE408481DB0AF6E001882E8 /* RCConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RCConfig.plist; sourceTree = "<group>"; };
-		4DE408491DB0AF6E001882E8 /* release_notes_ios.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes_ios.txt; sourceTree = "<group>"; };
-		4DE4084A1DB0AF6E001882E8 /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongCloud.bundle; sourceTree = "<group>"; };
-		4DE4084B1DB0AF6E001882E8 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMKit.framework; sourceTree = "<group>"; };
-		4DE4084C1DB0AF6E001882E8 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMLib.framework; sourceTree = "<group>"; };
-		4DE4084D1DB0AF6E001882E8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/RongCloudKit.strings"; sourceTree = "<group>"; };
 		4DE484791DAF2A4600A1233E /* threeService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = threeService.entitlements; sourceTree = "<group>"; };
 		4DE825731D6D69F900823E10 /* CZWFlowChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZWFlowChartViewController.h; sourceTree = "<group>"; };
 		4DE825741D6D69F900823E10 /* CZWFlowChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZWFlowChartViewController.m; sourceTree = "<group>"; };
@@ -770,9 +753,7 @@
 				4DD662A41C21507F00B0DC4E /* libc++abi.tbd in Frameworks */,
 				4DD662A21C21507800B0DC4E /* libc++.tbd in Frameworks */,
 				4DD662A01C21505D00B0DC4E /* ImageIO.framework in Frameworks */,
-				4DE408541DB0AF6E001882E8 /* RongIMKit.framework in Frameworks */,
 				4DD6629E1C21505300B0DC4E /* CoreVideo.framework in Frameworks */,
-				4DE408501DB0AF6E001882E8 /* libopencore-amrnb.a in Frameworks */,
 				4DD6629C1C21504B00B0DC4E /* CoreTelephony.framework in Frameworks */,
 				4DD6629A1C21504000B0DC4E /* CoreMedia.framework in Frameworks */,
 				4DD662981C21503600B0DC4E /* CoreLocation.framework in Frameworks */,
@@ -780,7 +761,6 @@
 				4DD662941C21502600B0DC4E /* CoreAudio.framework in Frameworks */,
 				4DD662921C214FFE00B0DC4E /* CFNetwork.framework in Frameworks */,
 				4DD662901C214FF400B0DC4E /* AVFoundation.framework in Frameworks */,
-				4DE408551DB0AF6E001882E8 /* RongIMLib.framework in Frameworks */,
 				4DD6628C1C214FDF00B0DC4E /* AssetsLibrary.framework in Frameworks */,
 				4D3B9AA91C169FF00001204F /* libsqlite3.tbd in Frameworks */,
 				1CB0CC151BAE60B70D21EC51 /* libPods-autoService.a in Frameworks */,
@@ -1350,7 +1330,6 @@
 		4D93A5CB1C06DD4700B0C21C /* autoService3rd */ = {
 			isa = PBXGroup;
 			children = (
-				4DE408431DB0AF6E001882E8 /* Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable */,
 				4D3B9A981C169FB80001204F /* FMDB */,
 				4DB7863F1C0BFB380008ED48 /* index */,
 				4D93A62B1C06DD7C00B0C21C /* 相册 */,
@@ -1613,21 +1592,6 @@
 			path = "加载提示框";
 			sourceTree = "<group>";
 		};
-		4DE408431DB0AF6E001882E8 /* Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable */ = {
-			isa = PBXGroup;
-			children = (
-				4DE408441DB0AF6E001882E8 /* Emoji.plist */,
-				4DE408451DB0AF6E001882E8 /* RongCloudKit.strings */,
-				4DE408471DB0AF6E001882E8 /* libopencore-amrnb.a */,
-				4DE408481DB0AF6E001882E8 /* RCConfig.plist */,
-				4DE408491DB0AF6E001882E8 /* release_notes_ios.txt */,
-				4DE4084A1DB0AF6E001882E8 /* RongCloud.bundle */,
-				4DE4084B1DB0AF6E001882E8 /* RongIMKit.framework */,
-				4DE4084C1DB0AF6E001882E8 /* RongIMLib.framework */,
-			);
-			path = Rong_Cloud_iOS_IMKit_SDK_v2_7_3_stable;
-			sourceTree = "<group>";
-		};
 		4DEB207F1C055C15002A0C48 = {
 			isa = PBXGroup;
 			children = (
@@ -1801,6 +1765,7 @@
 					4DEB20871C055C15002A0C48 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = MFH5RT668M;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InterAppAudio = {
 								enabled = 0;
@@ -1852,7 +1817,6 @@
 				4DE825801D6D9D5200823E10 /* center_flowChart@2x.png in Resources */,
 				4DEA09331CC084D1004F6378 /* 支付宝@2x.png in Resources */,
 				4D4C3F461C2A8CE50050F3A2 /* user_ evaluation@2x.png in Resources */,
-				4DE4084E1DB0AF6E001882E8 /* Emoji.plist in Resources */,
 				4D8543CA1C08331700AD6881 /* auto_userCenter@2x.png in Resources */,
 				4D93A6421C06DD7C00B0C21C /* FriendsSendsPicturesSelectBigNIcon@2x.png in Resources */,
 				4D2DE54D1CDB369E001B7B86 /* center_account@2x.png in Resources */,
@@ -1891,7 +1855,6 @@
 				4D8543D41C08458700AD6881 /* auto_toolbarBackImage@2x.png in Resources */,
 				4D818AB51C0D466A005F3CBD /* appeal_carInformation@2x.png in Resources */,
 				15E294931C09F35600EF16E3 /* center_appeals@2x.png in Resources */,
-				4DE408521DB0AF6E001882E8 /* release_notes_ios.txt in Resources */,
 				4D9D979A1C1FF14A00B0E46D /* user_checkApplearStateGoing@2x.png in Resources */,
 				15E294A01C0A08C000EF16E3 /* expert_Assist@2x.png in Resources */,
 				4D21D5771C05888800F7DE77 /* rootViewBackImage@2x.png in Resources */,
@@ -1901,10 +1864,8 @@
 				4DD89B851D758535008023F7 /* 三包-640-960-改-1.jpg in Resources */,
 				4D7936591C4487FE00505F50 /* StarsForeground@2x.png in Resources */,
 				4D8543CC1C08352900AD6881 /* auto_searchMirror@2x.png in Resources */,
-				4DE408511DB0AF6E001882E8 /* RCConfig.plist in Resources */,
 				4DEB209B1C055C15002A0C48 /* LaunchScreen.storyboard in Resources */,
 				4D590A7C1CA1323500D6418D /* expert_prolosal@2x.png in Resources */,
-				4DE4084F1DB0AF6E001882E8 /* RongCloudKit.strings in Resources */,
 				4D3ACEF91C17F392004E9F7D /* auto_cleanSearchHistory@2x.png in Resources */,
 				4D1AEA1F1CCF0229000F7E99 /* 采纳图标@2x.png in Resources */,
 				4D818AA31C0D2F44005F3CBD /* complainQuality.plist in Resources */,
@@ -1912,7 +1873,6 @@
 				4D0532F71CB51D79000529DC /* auto_adviceProposal@2x.png in Resources */,
 				4D3B75621C2BC7BC002F77C3 /* user_appealStateTimepiece@2x.png in Resources */,
 				4D21D57E1C05A3F900F7DE77 /* bar_btn_returnt@2x.png in Resources */,
-				4DE408531DB0AF6E001882E8 /* RongCloud.bundle in Resources */,
 				4DEEFBB61C7416E9000F160E /* Icon-Small-40@2x.png in Resources */,
 				4D5B5B4F1CB74EA9008BD40D /* 账号保护@2x.png in Resources */,
 				15E294941C09F35600EF16E3 /* center_collects@2x.png in Resources */,
@@ -2209,15 +2169,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4DE408451DB0AF6E001882E8 /* RongCloudKit.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DE408461DB0AF6E001882E8 /* en */,
-				4DE4084D1DB0AF6E001882E8 /* zh-Hans */,
-			);
-			name = RongCloudKit.strings;
-			sourceTree = "<group>";
-		};
 		4DEB20941C055C15002A0C48 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -2326,6 +2277,7 @@
 				CODE_SIGN_ENTITLEMENTS = autoService/threeService.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MFH5RT668M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2334,7 +2286,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/autoService/CZWPch.pch";
 				INFOPLIST_FILE = autoService/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2344,7 +2296,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.12365auto.threeService;
 				PRODUCT_NAME = threeService;
-				PROVISIONING_PROFILE = "86fe95a1-2c4c-471c-8b39-63b9c0ca32b8";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -2356,7 +2309,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = autoService/threeService.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = MFH5RT668M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2366,7 +2319,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/autoService/CZWPch.pch";
 				INFOPLIST_FILE = autoService/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2376,8 +2329,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.12365auto.threeService;
 				PRODUCT_NAME = threeService;
-				PROVISIONING_PROFILE = "1ad7142a-6ee4-47f1-b9b1-8e7178bccb99";
-				PROVISIONING_PROFILE_SPECIFIER = threeService;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

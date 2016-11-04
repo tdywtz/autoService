@@ -17,6 +17,7 @@ PODS:
   - Masonry (1.0.2)
   - MJNIndexView (0.0.1)
   - MJRefresh (3.1.0)
+  - RongCloudIMKit (2.7.3)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -27,6 +28,7 @@ DEPENDENCIES:
   - Masonry (~> 1.0.2)
   - MJNIndexView (~> 0.0.1)
   - MJRefresh (~> 3.1.0)
+  - RongCloudIMKit (~> 2.7.3)
   - SDWebImage (~> 3.8.2)
   - UMengAnalytics-NO-IDFA (~> 4.1.1)
 
@@ -35,9 +37,10 @@ SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJNIndexView: 6186c3ea302624ed5c008dba8a178677a7523cab
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  RongCloudIMKit: 0b93700b17d224c7c213815b8a23a9c356fe20e2
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
 
-PODFILE CHECKSUM: d7eaacb8c86eaf0edbdf20a9772f825f0df27caf
+PODFILE CHECKSUM: 5d817f4265abf23d860c05761d26b636b661fcfa
 
 COCOAPODS: 1.0.1

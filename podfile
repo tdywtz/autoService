@@ -1,9 +1,12 @@
 platform:ios,'7.0'
 target "autoService" do
+    
 pod 'AFNetworking', '~> 3.1.0'
 pod 'SDWebImage', '~> 3.8.2'
 pod 'Masonry', '~> 1.0.2'
 pod 'MJRefresh', '~> 3.1.0'
 pod 'MJNIndexView', '~> 0.0.1'
 pod 'UMengAnalytics-NO-IDFA', '~> 4.1.1'
+pod 'RongCloudIMKit', '~> 2.7.3'
+
 end

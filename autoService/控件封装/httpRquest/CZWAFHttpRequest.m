@@ -79,7 +79,7 @@
                       success:(void (^)(id responseObject))success
                       failure:(void (^)(NSError *error))failure{
 
-    //NSLog(@"%@",URLString);
+   //  NSLog(@"%@",URLString);
     URLString = [URLString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     /**
      默认的缓存策略， 如果缓存不存在，直接从服务端获取。
